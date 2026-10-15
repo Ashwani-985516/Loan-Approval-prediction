@@ -91,11 +91,11 @@ if set(feature_columns) != applicant_fields:
 
 st.title("Loan Approval Prediction")
 st.write(
-    "Applicant details enter karein, phir model ka estimated result dekhein."
+    "Enter the applicant details, then view the model's estimated result."
 )
 st.caption(
-    "Yeh educational project hai. Prediction sirf model ka estimate hai, "
-    "lender ka final decision nahi."
+    "This is an educational project. The prediction is merely an estimate from the model "
+    "Not the lender's final decision"
 )
 
 with st.form("loan_application"):
